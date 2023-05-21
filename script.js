@@ -50,10 +50,7 @@ btn.addEventListener('click', function() {
             guess.value = "";
         }
         else {
-            play = false;
             msg.innerHTML = `oops !! its incorrect , please try again`;
-            btn.innerHTML = "Start Again";
-            guess.classList.toggle('hidden');
             guess.value = "";
         }
     }
